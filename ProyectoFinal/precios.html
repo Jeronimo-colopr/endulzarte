@@ -5,6 +5,7 @@
     <title>Menú - Endulzarte</title>
     <link rel="stylesheet" href="config.css">
     <link rel="stylesheet" href="normalize.css">
+    <script src="script.js"></script>
 </head>
 <body>
 
@@ -21,6 +22,16 @@
 
 <section id="precios">
     <h2>Menú y Precios</h2>
+
+    <button onclick="mostrarOferta()">
+Ver oferta especial
+</button>
+
+<p id="oferta"></p>
+
+<button onclick="cambiarColorTabla()">
+Cambiar color de tabla
+</button>
 
     <table class="tabla-precios">
         <thead>

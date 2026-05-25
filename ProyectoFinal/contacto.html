@@ -5,6 +5,7 @@
     <title>Contacto - Endulzarte</title>
     <link rel="stylesheet" href="config.css">
     <link rel="stylesheet" href="normalize.css">
+    <script src="script.js"></script>
 </head>
 <body>
 
@@ -25,6 +26,23 @@
     <p>📞 (787) 624-4058</p>
     <p>📧 endulzarte@email.com</p>
 </section>
+
+<form onsubmit="return validarFormulario()">
+
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre">
+
+    <br><br>
+
+    <label for="mensaje">Mensaje:</label>
+    <textarea id="mensaje"></textarea>
+
+    <br><br>
+
+    <input type="submit" value="Enviar">
+
+</form>
+
 
 <footer>
     <p>© 2026 Endulzarte</p>
